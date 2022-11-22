@@ -1,0 +1,19 @@
+.hero {
+  color: white;
+  background-color: #007bff;
+  padding: 1.5em 0;
+}
+.hero h3 {
+  font-weight: normal;
+}
+
+.hero.red {
+  background-color: tomato;
+}
+.hero.green {
+  background-color: green;
+}
+
+#hero_red {
+  background-color: tomato;
+}
