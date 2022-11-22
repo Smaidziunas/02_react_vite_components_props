@@ -1,9 +1,9 @@
+import SectionTitle from "../UI/SectionTitle";
 import TeamList from "./TeamList";
 
 function OurTeamSection() {
   return <div className="ourTeamSection">
-    <h2>Our Team</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+    <SectionTitle title="Our Team" subtitle = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.' />
     <TeamList />
   </div>;
 }
