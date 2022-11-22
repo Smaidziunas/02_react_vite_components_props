@@ -1,0 +1,41 @@
+:root {
+  --main-color: #007bff;
+}
+
+* {
+  font-weight: normal;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card i {
+  font-size: 30px;
+  color: var(--main-color);
+  padding-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+    color: #000;
+}
+
+.card p {
+  color: grey;
+}
+
+.card a {
+  color: var(--main-color);
+  text-decoration: none;
+  background-color: transparent;
+}
