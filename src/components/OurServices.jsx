@@ -6,8 +6,7 @@
  
  function OurServices() {
     return (
-          <div className="servicesSection">
-     
+      <div className="servicesSection">
       <SectionTitle title='musu paslaugos' size='large' />
       <ServicesGrid />
       {/* <SectionTitle title='about us' />

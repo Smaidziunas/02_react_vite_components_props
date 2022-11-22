@@ -56,3 +56,24 @@
 .ourTeamSection p {
   color: grey;
 }
+
+.ourExpertise {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 25% 25% 50%;
+  padding: 1rem;
+}
+
+.ourExpertise .card {
+  display: grid;
+  background-color:#ededed;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  word-break: break-all;
+  max-height: 255px;
+  margin-bottom: 3rem;
+  padding: 0px;
+ 
+}
+

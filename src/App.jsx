@@ -1,5 +1,7 @@
+  import Expertise from './components/Expertise';
   import OurServices from './components/OurServices';
   import OurTeamSection from './components/team/OurTeamSection';
+
   import './App.css'
   
 
@@ -11,6 +13,7 @@ function App() {
     <div className="App container">
       <OurTeamSection />
       <OurServices />
+      <Expertise />
     </div>
   )
 }
