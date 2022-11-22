@@ -39,3 +39,20 @@
   text-decoration: none;
   background-color: transparent;
 }
+
+.team_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.ourTeamSection h2 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.ourTeamSection p {
+  color: grey;
+}
