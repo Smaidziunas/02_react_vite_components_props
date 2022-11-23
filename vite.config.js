@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: 'http://127.0.0.1:5173/',
+    open: 'http://127.0.0.1:5174/',
   },
 })

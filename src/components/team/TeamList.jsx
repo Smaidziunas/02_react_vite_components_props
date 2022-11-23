@@ -1,4 +1,5 @@
 import TeamMember from "./TeamMember";
+// import pic1 from "/assets/img/person_1.jpg"
 
 const teamsArr = [{
   img: "public/img/person_1.jpg",
@@ -19,7 +20,7 @@ name: "Ben Thompson",
 occupation: "Product Manager"}
 ]
 
-export default function TeamList(props) {
+export default function TeamList() {
   return (
   <div className="team_grid">
     <TeamMember img= {teamsArr[0].img} name= {teamsArr[0].name} occupation= {teamsArr[0].occupation}/>
